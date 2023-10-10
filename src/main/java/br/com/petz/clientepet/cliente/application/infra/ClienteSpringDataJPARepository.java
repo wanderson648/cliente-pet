@@ -1,4 +1,4 @@
-package br.com.petz.clientepet.application.infra;
+package br.com.petz.clientepet.cliente.application.infra;
 
 import br.com.petz.clientepet.cliente.domain.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;

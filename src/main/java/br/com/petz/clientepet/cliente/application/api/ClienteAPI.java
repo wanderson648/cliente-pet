@@ -1,4 +1,4 @@
-package br.com.petz.clientepet.application.api;
+package br.com.petz.clientepet.cliente.application.api;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

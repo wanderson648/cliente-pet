@@ -1,7 +1,6 @@
-package br.com.petz.clientepet.application.repository;
+package br.com.petz.clientepet.cliente.application.repository;
 
 
-import br.com.petz.clientepet.application.api.ClienteDetalhadoResponse;
 import br.com.petz.clientepet.cliente.domain.Cliente;
 
 import java.util.List;

@@ -1,12 +1,10 @@
-package br.com.petz.clientepet.application.api;
+package br.com.petz.clientepet.cliente.application.api;
 
 import br.com.petz.clientepet.cliente.domain.Cliente;
-import jakarta.validation.Valid;
 import lombok.Value;
 
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 @Value
