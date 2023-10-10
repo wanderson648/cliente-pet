@@ -12,19 +12,19 @@ import java.time.LocalDate;
 @Value
 public class ClienteRequest {
     @NotBlank
-    private String nomeCompleto;
+    String nomeCompleto;
     @NotBlank
     @Email
-    private String email;
+    String email;
     @NotBlank
-    private String celular;
-    private String telefone;
-    private Sexo sexo;
+    String celular;
+    String telefone;
+    Sexo sexo;
     @NotNull
-    private LocalDate dataNascimento;
+    LocalDate dataNascimento;
     @CPF
-    private String cpf;
+    String cpf;
     @NotNull
-    private Boolean aceitaTermos;
+    Boolean aceitaTermos;
 
 }
