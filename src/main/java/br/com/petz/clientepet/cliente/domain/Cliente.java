@@ -28,6 +28,7 @@ public class Cliente {
     private String email;
     @NotBlank
     private String celular;
+    private String telefone;
     private Sexo sexo;
     @NotNull
     private LocalDate dataNascimento;
@@ -39,11 +40,12 @@ public class Cliente {
     private LocalDateTime dataHoraDoCadastro;
     private LocalDateTime dataHoraDaUltimaAlteracao;
 
-    public Cliente(String nomeCompleto, String email, String celular, Sexo sexo,
+    public Cliente(String nomeCompleto, String email, String celular, String telefone, Sexo sexo,
                    LocalDate dataNascimento, String cpf, Boolean aceitaTermos) {
         this.nomeCompleto = nomeCompleto;
         this.email = email;
         this.celular = celular;
+        this.telefone = telefone;
         this.sexo = sexo;
         this.dataNascimento = dataNascimento;
         this.cpf = cpf;

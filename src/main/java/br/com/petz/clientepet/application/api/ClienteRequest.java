@@ -18,6 +18,7 @@ public class ClienteRequest {
     private String email;
     @NotBlank
     private String celular;
+    private String telefone;
     private Sexo sexo;
     @NotNull
     private LocalDate dataNascimento;
