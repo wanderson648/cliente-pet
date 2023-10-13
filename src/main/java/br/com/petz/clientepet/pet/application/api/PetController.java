@@ -12,7 +12,7 @@ import java.util.UUID;
 @RestController
 @Log4j2
 @RequiredArgsConstructor
-public class PetController implements PetApi{
+public class PetController implements PetApi {
     private final PetService petService;
 
     @Override
@@ -27,7 +27,8 @@ public class PetController implements PetApi{
     public List<PetClienteListResponse> getPetsDoClienteComId(UUID idCliente) {
         log.info("[inicia] PetController - getPetsDoClienteComId");
         log.info("[idCliente] {}", idCliente);
+        List<PetClienteListResponse> petsDoCliente = petService.buscaPetsDoClienteComId(idCliente);
         log.info("[finaliza] PetController - getPetsDoClienteComId");
-        return null;
+        return petsDoCliente;
     }
 }
