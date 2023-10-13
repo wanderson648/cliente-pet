@@ -12,6 +12,5 @@ import java.util.UUID;
 public interface PetApi {
     @PostMapping
     @ResponseStatus(code = HttpStatus.CREATED)
-    PetResponse postPet(@PathVariable UUID idCliente,
-                        @Valid @RequestBody PetRequest pet);
+    PetResponse postPet(@PathVariable UUID idCliente, @Valid @RequestBody PetRequest pet);
 }
