@@ -53,8 +53,7 @@ public class ClienteController implements ClienteAPI {
                                    @Valid ClienteAteracaoRequest clienteAteracaoRequest) {
         log.info("[inicia] ClienteController - patchAlteraCliente");
         log.info("[idCliente] - {}", idCliente);
+        clienteService.patchAlteraCliente(idCliente, clienteAteracaoRequest);
         log.info("[finaliza] ClienteController - patchAlteraCliente");
     }
-
-
 }
