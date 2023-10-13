@@ -20,6 +20,7 @@ public class ClienteController implements ClienteAPI {
     @Override
     public ClienteResponse postCliente(ClienteRequest clienteRequest) {
         log.info("[inicia] ClienteController - postCliente");
+        log.info("[finaliza] ClienteController - postCliente");
         return clienteService.criaCliente(clienteRequest);
     }
 
